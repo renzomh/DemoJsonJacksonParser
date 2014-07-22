@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <Button
+	        android:id="@+id/btDemoJacksonInformacionFinanciera"
+	        android:layout_width="0px"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.33"
+	        android:text="INFOFINANCIERA" />
+        
+        <Button
+	        android:id="@+id/btDemoJacksonInformacionConsultora"
+	        android:layout_width="0px"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.33"
+	        android:text="CONSULTORA" />
+        
+        <Button
+	        android:id="@+id/btDemoJacksonProdutosObligatorios"
+	        android:layout_width="0px"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.33"
+	        android:text="PRODUCTOS OBLIGATORIOS" />
+        
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <TextView
+		        android:id="@+id/tvDemoJacksonConsumirResultado"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"/>
+        </LinearLayout>
+        
+    </ScrollView>
+</LinearLayout>
+<!-- 
+
+ -->
+
